@@ -10,5 +10,4 @@ __pycache__
 *.zip
 .venv
 .vscode
-uv.lock
 *.backup
