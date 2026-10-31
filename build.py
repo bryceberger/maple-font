@@ -1632,17 +1632,6 @@ def build_base_fonts(
         target_styles,
     )
 
-    run_build(
-        font_config.pool_size,
-        partial(
-            build_mono_autohint,
-            font_config=font_config,
-            build_option=build_option,
-        ),
-        build_option.output_ttf,
-        target_styles,
-    )
-
 
 def build_nerd_fonts(
     font_config: FontConfig, build_option: BuildOption, target_styles: list[str] | None
